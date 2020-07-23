@@ -1,4 +1,19 @@
 # AHK_Generic-Midi-Program
+
+## [Egill Antonsson's](https://github.com/EgillAntonsson) custom changes :musical_keyboard:
+
+I wrote my custom 'translate midi messages from my piano to keyboard input' script to `MidiRules.ahk`
+
+I did some code cleanup that suits my use case, since I [forked the repo](https://github.com/genmce/AHK_Generic-Midi-Program):
+* `MidiRules.ahk`: Removed commented out examples and minimized existing documentation).
+* `Generic_midi_App_07.ahk`: As I'm currently only interested in midi input to action, I removed midi out functions and variables, removed other include files except *midiRules.ahk* and *mio2.ahk*, and removed documentation that was marked as old.
+
+Many thanks to [genmce](https://github.com/genmce) for the [forked repo]((https://github.com/genmce/AHK_Generic-Midi-Program)
+)
+
+---
+## Start of orginial README below by [genmce](https://github.com/genmce)
+
 December 15, 2018
 I have come back to work on this project again - I would love help on it.
 License for this version changed - see license
